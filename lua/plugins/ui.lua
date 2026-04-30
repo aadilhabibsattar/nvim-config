@@ -8,4 +8,10 @@ return {
       trailing_stiffness = 0.3, -- How long the "phase" tail lasts
     },
   },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      indent = { enabled = false },
+    },
+  },
 }
